@@ -473,14 +473,17 @@ button.started {
     letter-spacing: 1px;
     padding-left:3px;
 }
-
+div.body {
+    position: relative;
+    z-index: 5000;
+}
 div.display div.act {
-    /* padding: 1% 10%; */
+    padding: 1% 10%;
     position: relative;
     border: thin solid rgba(47, 136, 252, 0.1);
     margin: 10px auto;
     height: 4em;
-    /* z-index: 1000; */
+    z-index: 5000;
     /* background-color: red; */
     border-radius: 4px;
     width: 100%;
