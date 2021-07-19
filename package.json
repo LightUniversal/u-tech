@@ -2,9 +2,9 @@
   "name": "work",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "shop.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d work"
   },
   "author": "",
   "license": "ISC",
