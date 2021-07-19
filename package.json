@@ -4,11 +4,11 @@
   "description": "",
   "main": "shop.js",
   "scripts": {
-    "deploy": "gh-pages -d work"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
-  "homepage" : "https://lucanly.github.io/u-tech",
+  "homepage" : "https://lucanly.github.io/utech",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
