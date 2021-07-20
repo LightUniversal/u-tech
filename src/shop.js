@@ -144,7 +144,7 @@ class Shop {
                 <div class="body">
                     <i class="fa fa-arrow-up fadeout"></i>
                     <div class="img-body animated fadeInDown">
-                        <img src="${src}" alt="" class="product">
+                        <img src="https://lucanly.github${src}" alt="" class="product">
                     </div>
                     <div id="title-des">
                         <h5><i class="fa fa-tag"></i> ${name}</h5>
@@ -175,7 +175,7 @@ class Shop {
                 <div class="body animated  fadeInDown">
                     <i class="fa fa-arrow-up fadeout"></i>
                     <div class="img-body animated">
-                        <img src="${src}" alt="" class="product">
+                        <img src="https://lucanly.github${src}" alt="" class="product">
                     </div>
                     <div id="title-des">
                         <h5><i class="fa fa-tag"></i> ${name}</h5>
