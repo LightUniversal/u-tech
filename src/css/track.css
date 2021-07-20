@@ -21,7 +21,9 @@ body {
 
 .container {
   margin: 30px auto;
-  width: 350px;
+  width: 100%;
+  max-width: 645px;
+  padding: 3% 8%;
 }
 
 h1 {
@@ -32,7 +34,6 @@ h1 {
 h3 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
-  margin: 40px 0 10px;
 }
 
 h4 {
@@ -88,6 +89,7 @@ input[type='number'] {
   border-radius: 3px;
   font-weight: 300;
   display: block;
+  color: #222;
   outline: none;
   font-size: 16px;
   padding: 10px;
@@ -128,8 +130,9 @@ input[type='number'] {
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: #222;
   display: flex;
+  font-weight: 600;
   justify-content: space-between;
   position: relative;
   padding: 10px;
@@ -149,14 +152,16 @@ input[type='number'] {
   background-color: #e74c3c;
   border: 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 20px;
-  padding: 2px 5px;
+  padding: 1px 5px;
+  font-weight: 600;
   position: absolute;
   top: 50%;
+  border-radius: 2px;
   left: 0;
   transform: translate(-100%, -50%);
-  opacity: 0;
+  opacity: 01;
   transition: opacity 0.3s ease;
 }
 

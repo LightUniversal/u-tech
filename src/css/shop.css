@@ -562,8 +562,8 @@ footer i.fa-arrow-up {
     position: absolute;
     font-size: 15px;
     cursor: pointer;
-    top: 17px;
-    right: 12%;
+    top: 11px;
+    right: 10%;
 }
 footer i.fa-arrow-up:hover,
 footer i.fa-arrow-up:active {

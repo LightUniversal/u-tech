@@ -41,7 +41,7 @@ class Shop {
                     this.services.classList.toggle('show-services');   
                 } else if( i === 1) {
                     scrollTo({
-                        top : 3000,
+                        top : 4000,
                         left:0,
                         behavior:"smooth"
                     })
@@ -50,7 +50,7 @@ class Shop {
                 }
                 else if( i === 2) {
                     scrollTo({
-                        top : 1000,
+                        top : 1500,
                         left:0,
                         behavior:"smooth"
                     })
@@ -58,7 +58,7 @@ class Shop {
                     this.services.classList.toggle('show-services');  
                 }else if( i === 3) {
                     scrollTo({
-                        top : 2000,
+                        top : 3000,
                         left:0,
                         behavior:"smooth"
                     })
