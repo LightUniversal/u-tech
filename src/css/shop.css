@@ -554,7 +554,7 @@ footer small {
 footer i.fa-arrow-up {
     color:rgb(3, 115, 243);
     border: thin solid rgba(6, 93, 255, 0.1);
-    padding: 5px;
+    padding: 5px 5px;
     transition-property: transform;
     transition-timing-function: ease-in-out;
     transition-duration: 500ms;
@@ -562,8 +562,8 @@ footer i.fa-arrow-up {
     position: absolute;
     font-size: 15px;
     cursor: pointer;
-    top: 11px;
-    right: 10%;
+    top: 8px;
+    right:7%;
 }
 footer i.fa-arrow-up:hover,
 footer i.fa-arrow-up:active {
