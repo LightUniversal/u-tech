@@ -12,14 +12,14 @@ class Shop {
         .then((data)=> {
             return data.Key;
         })
-        const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
+        const base = 'https://dataservice.accuweather.com/currentconditions/v1/';
         const query = `${id}?apikey=${this.key}`;
         const res = await fetch(base + query);
         const data = await res.json();
         return data[0];
     }
     async weather() {
-        const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+        const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
         const query = `?apikey=${this.key}&q=${this.city}`;
 
         const res = await fetch(base + query);
