@@ -1,7 +1,7 @@
 Task to achieve
 1. update posts
 2. delete posts
-3. like and dislike posts
+3. post-likes
 4. comment on posts
 5. User profile
 6. internal chatroom
