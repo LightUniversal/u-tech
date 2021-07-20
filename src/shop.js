@@ -84,6 +84,10 @@ class Shop {
             location.href = `${e.target.href}`;
         } if(e.target.className === "started") {
             location.href = `tracker.html`;
+        } if(e.target.className === 'fa fa-git') {
+            location.href = "https://github.com/lucanly?tab=repositories";
+        } if(e.target.className === "msg") {
+            location.href = `${e.target.href}`;
         }
     }
     toggle(e) {

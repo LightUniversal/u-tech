@@ -242,7 +242,7 @@ div.socials-icons li {
 }
 div.socials-icons {
     position: fixed;
-    right: 13%;
+    right: 8%;
     top:250px;
 }
 i.state-weather {
@@ -551,6 +551,27 @@ footer small {
     vertical-align: text-top;
     text-shadow: 0.1px 0.1px 0.1px rgb(255, 255, 255);
 }
+div.feedback a {
+    position: fixed;
+    transform: rotate(-270deg);
+    top:270px;
+    left: -35px;
+    z-index: 700;
+    text-decoration: none;
+    font-family: "Mate Sc";
+    text-transform: lowercase;
+    background-color: rgb(54, 10, 54);
+    padding: 20px;
+    color:#fff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 1px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+div.feedback a i {
+    color: red;
+}
 footer i.fa-arrow-up {
     color:rgb(3, 115, 243);
     border: thin solid rgba(6, 93, 255, 0.1);
@@ -612,7 +633,7 @@ footer i.fa-arrow-up:active {
         padding: 10px;
         display: block;
         position: absolute;
-        right: 10%;
+        right: 5%;
         font-size: 20px;
         top: 20px;
         color: rgb(255, 255, 255);
@@ -628,7 +649,7 @@ footer i.fa-arrow-up:active {
         width: inherit;
         position: relative;
         padding:1%;
-        margin-left:65px;
+        margin-left:45px;
         border-top: 0.01px solid rgba(222, 184, 135,0.2);
         border-radius: 0px;
     }
