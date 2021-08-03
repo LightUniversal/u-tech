@@ -112,6 +112,3 @@ init();
 
 form.addEventListener('submit', addTransaction);
 // json
-const json = await fetch(' https://lucanly.github.io/u-tech/json.json');
-const res = await json.json();
-console.log(res);
